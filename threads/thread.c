@@ -2,7 +2,7 @@
 #include <pthread.h>
 
 #define NUMTHREADS 5
-
+//
 int val = 5;
 pthread_mutex_t mutex;
 void * hello(void *id){
